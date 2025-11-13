@@ -32,5 +32,4 @@ jobs:
         with:
           name: cobertura-node22
           path: coverage/
-          retention-day: 10
           if-no-files-found: ignore
