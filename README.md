@@ -14,11 +14,13 @@ Aplicación web desarrollada con Node.js y Express que muestra una lista de usua
 ## 🛠️ Tecnologías Utilizadas
 
 - **Backend:**
+
   - Node.js
   - Express.js
   - node-fetch
 
 - **Frontend:**
+
   - HTML5
   - CSS3 (con animaciones)
   - JavaScript (Vanilla)
@@ -51,6 +53,7 @@ clase-cf-actions/
 1. Clona el repositorio (o asegúrate de estar en el directorio del proyecto)
 
 2. Instala las dependencias:
+
 ```bash
 npm install
 ```
@@ -58,11 +61,13 @@ npm install
 ## 💻 Uso
 
 ### Modo Producción
+
 ```bash
 npm start
 ```
 
 ### Modo Desarrollo (con hot-reload)
+
 ```bash
 npm run dev
 ```
@@ -72,16 +77,19 @@ La aplicación estará disponible en: `http://localhost:3000`
 ## 🧪 Pruebas
 
 ### Ejecutar todas las pruebas
+
 ```bash
 npm test
 ```
 
 ### Ejecutar pruebas en modo watch
+
 ```bash
 npm run test:watch
 ```
 
 Las pruebas incluyen:
+
 - ✅ Tests de la función `getRandomUsers`
 - ✅ Tests de las rutas HTTP
 - ✅ Tests de manejo de errores
@@ -90,13 +98,17 @@ Las pruebas incluyen:
 ## 📡 API Endpoints
 
 ### `GET /`
+
 Sirve la página principal HTML
 
 ### `GET /api/users?count=10`
+
 Retorna una lista de usuarios aleatorios
-- **Parámetros:** 
+
+- **Parámetros:**
   - `count` (opcional): número de usuarios (1-50, default: 10)
 - **Respuesta:**
+
 ```json
 {
   "success": true,
@@ -115,8 +127,11 @@ Retorna una lista de usuarios aleatorios
 ```
 
 ### `GET /health`
+
 Endpoint de salud del servidor
+
 - **Respuesta:**
+
 ```json
 {
   "status": "ok",
@@ -138,6 +153,7 @@ Endpoint de salud del servidor
 El servidor usa el puerto configurado en la variable de entorno `PORT` o 3000 por defecto.
 
 Para cambiar el puerto:
+
 ```bash
 PORT=8080 npm start
 ```
@@ -170,7 +186,8 @@ Este proyecto está bajo la Licencia MIT.
 ## 📞 Soporte
 
 Si tienes alguna pregunta o problema, por favor abre un issue en el repositorio.
-📝
+📝 🔑
+
 ---
 
 Desarrollado con ❤️ usando Node.js
