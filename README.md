@@ -170,7 +170,7 @@ Este proyecto está bajo la Licencia MIT.
 ## 📞 Soporte
 
 Si tienes alguna pregunta o problema, por favor abre un issue en el repositorio.
-
+📝
 ---
 
 Desarrollado con ❤️ usando Node.js
